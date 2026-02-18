@@ -604,6 +604,10 @@
                     there are a few options:</p>
 
                 <ul>
+                    <li><span class="highlight">QUT Airport Reception (FREE !):</span> QUT provides a free 24-hour airport reception and transfer service for new international students.
+                    If you're bringing family members or relatives, additional charges will apply. These include, a fee for each extra person and a separate fee for each piece of their luggage.
+                    For more details contact <a href="mailto:qut@belairlimos.com.au">qut@belairlimos.com.au</a> or visit <a href="https://www.qut.edu.au/study/student-life/support/airport-reception" target="_blank">QUT Airport Reception</a>
+                    </li>
                     <li><span class="highlight">Maxi Taxi (13Cabs App):</span> For those who have so much luggage that
                         won't fit in an SUV. Maxi Taxi are customized Toyota Hiace vans modded to carry very large amounts of baggage.</li>
                     <li><span class="highlight">Uber App:</span> For loyal Uber customers.</li>
@@ -944,26 +948,34 @@
                     <p>All Assignments, Project Group formation and submissions are done on Canvas.</p>
                     <p>All Rubric Scoring Guidelines, Assignment Grades and Final exam marks are posted here.</p>  
                     <style>
-                        .scroll-box {
-                            width: 100%;
-                            overflow: hidden;
-                            white-space: nowrap;
-                        }
+    .scroll-box {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 
-                        .scroll-box p {
-                            display: inline-block;
-                            animation: scroll-left 15s linear infinite;
-                        }
+    .scroll-box p {
+        display: inline-block;
+        animation: scroll-left 15s linear infinite;
+        font-size: 16px; /* Default font size for desktop */
+    }
 
-                        @keyframes scroll-left {
-                            from {
-                                transform: translateX(100%);
-                            }
-                            to {
-                                transform: translateX(-100%);
-                            }
-                        }
-                    </style>
+    @media (max-width: 768px) {  /* Adjust font size for screens 768px or smaller */
+        .scroll-box p {
+            font-size: 10px; /* Smaller font size for mobile */
+        }
+    }
+
+    @keyframes scroll-left {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+
                      <div class="scroll-box">
                         <p><strong>Pro Tip: </strong>Install Canvas on your mobile device (phone/tablet) so you can brush up whist on your commute to Uni.
                         
@@ -991,8 +1003,8 @@
 
                     <div class="warning-box">
                         <p><strong>Unique Student Identifier (USI):</strong> A USI can only be created when you arrive in Australia and you cannot create a USI after you have left. 
-                        International students, therefore, should contact your education or training provider prior to coming to Australia to let them know you will create a USI upon arrival
-                        can use your Australian visa and non-Australian passport to create a USI after you arrive in Australia. You will need to share your USI with your education or training provider</p>
+                        International students, therefore, should contact your education or training provider prior to coming to Australia to let them know you will create a USI upon arrival.
+                        After arrival; You will need your non-Australian passport with Australian Visa as 'Evidence of Identity' , Address in Brisbane and your Australian Mobile Number. You can use pesonal email address (not QUT email ID) to create a USI Code </p>
                         <div style="width: 100%; text-align: center;">
                         <img 
                         src="https://quttestdataai102.blob.core.windows.net/sitecontent/USI-RGB.webp" 
@@ -1001,8 +1013,9 @@
                         >
                         </div>
                         <p> Here is the link to know more about USI for International Students <a href="https://www.usi.gov.au/students/international-students-and-students-studying-overseas" target="_blank">USI.gov.au</a></p>
-                        <p style="text-align: center;"><span class="highlight">You may not be able to graduate or receive a statement of attainment if you leave Australia and have not created a USI.However, once you have created your USI login to QUT Portal, update your Profile with the USI number !!</span> 
-                        <p style="text-align: center;"><span style="color: red;">Your Australian visa cannot be used to create a USI or update your personal details once you have left Australia for good.</span></p>
+                        <p style="text-align: center;"><span class="highlight">You may not be able to graduate or receive a statement of attainment if you leave Australia and have not created a USI.</p></span> 
+                        <p style="text-align: center;"><span style="color: blue;">However, once you have created your USI login to QUT Portal, update your Profile with the USI code !</p></span>
+						<p style="text-align: center;"><span style="color: red;">Your Australian visa cannot be used to create a USI or update your personal details once you have left Australia for good.</span></p>
 						
                     </div>    
 
